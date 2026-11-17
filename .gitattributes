@@ -1,0 +1,4 @@
+# Eval sets are hashed (eval_set_sha) and compared with the committed baseline:
+# keep the exact LF bytes on every OS so Windows and the Linux CI hash the same file.
+src/data/eval/*.jsonl text eol=lf
+src/data/eval/*.json text eol=lf
